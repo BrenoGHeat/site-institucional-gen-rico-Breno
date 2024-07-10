@@ -1,0 +1,11 @@
+@import "./globalStyles.css";
+@import "./reset.css";
+@import "./header.css";
+@import "./button.css";
+@import "./grid.css";
+@import "./sectionBanner.css";
+@import "./sectionAbout.css";
+@import "./faqSection.css";
+@import "./footer.css";
+@import "./sectionComments.css";
+@import "./modal.css";

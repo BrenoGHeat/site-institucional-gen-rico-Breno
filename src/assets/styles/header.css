@@ -1,0 +1,24 @@
+.header.container{
+    width: 100%;
+    max-width: 78.5rem;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    padding-left: 14.688rem;
+    padding-block: 1rem;
+    border: none;
+
+}
+
+.header{
+    width: 100%;
+    background-color: var(--color-gray-one);
+    border-bottom: 2px solid var(--color-brand-one);   
+}
+
+.img.header{
+    max-width: 12.5rem;
+    border: none;
+}

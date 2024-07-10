@@ -1,0 +1,33 @@
+.banner.container{
+    width: 100%;
+    display: flex;
+    max-width: 78.5rem;
+    background-color: var(--color-gray-two);
+    margin: 0 auto;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.title.one{
+    font-family: var(--font-primary);
+    font-weight: 600;
+    font-size: clamp(1rem, -0.151rem + 4.332vw, 3.25rem);
+    color: var(--color-gray-six);
+
+}
+
+.span.one{
+    color:var(--color-brand-one);
+}
+
+.paragraph.banner{
+    font-family: var(--font-primary);
+    color: var(--color-gray-four);
+    font-weight: 400;
+    font-size: 1.25rem;
+    width: 48.125rem;
+    line-height: 1.875rem;
+}

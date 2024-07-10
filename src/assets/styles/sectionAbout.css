@@ -1,0 +1,29 @@
+.about.container{
+    width: 100%;
+    background-color: var(--color-gray-one);
+
+}
+
+.mini.about.container{
+    max-width: 78.5rem;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    padding-block: 3rem;
+    gap: 3.5rem;
+}
+
+.title.two{
+    color: var(--color-gray-six);
+    font-weight: 600;
+    font-size: clamp(1rem, 0.233rem + 2.888vw, 2.5rem);
+    width: 38.75rem;
+}
+
+.paragraph.about{
+    font-weight: 400;
+    font-size: 1.25rem;
+    line-height: 1.875rem;
+    color: var(--color-gray-six);
+    width: 36.25rem;
+}

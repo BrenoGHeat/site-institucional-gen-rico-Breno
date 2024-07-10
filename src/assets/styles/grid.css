@@ -1,0 +1,18 @@
+
+.container.one{
+    width: 100%;
+    margin: 0 auto;
+    background-color: var(--color-gray-two);
+    font-family: var(--font-primary);
+}
+
+.div.banner{
+    display: flex;
+    padding-block: 10rem;
+    gap: 2.75rem;
+    max-width: 67.813rem;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,89 @@
+.container.comments{
+    width: 100%;
+    max-width: 78.5rem;
+    margin: 0 auto;
+    padding-block: 2rem;
+}
+
+.mini.container.right.side{
+    width: 36.25rem;
+    background-color: var(--color-gray-two);
+   
+}
+
+.title.comments{
+    font-weight: 600;
+    font-size: clamp(1rem, 0.233rem + 2.888vw, 2.5rem);
+    color: var(--color-gray-seven);
+    line-height: 4rem;
+    width: 24.375rem;
+   
+}
+
+.paragraph.comments{
+    font-weight: 400;
+    font-size: 1.25rem;
+    line-height: 1.875rem;
+    color: var(--color-gray-seven);
+    width: 24.375rem;
+}
+
+
+.mini.div{
+    width: 30.875rem;
+    background-color: var(--color-brand-one);
+    display: flex;
+    gap: 2.188rem;
+  
+    padding-block: 3rem;
+  
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+.container.left.side.comments{
+    width: 38.75rem;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    gap: 5.125rem;
+}
+
+.li.comments{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 1rem;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+}
+
+.container.names{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    width: 12rem;
+}
+
+.paragraph.li{
+    color: var(--color-gray-four);
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+.paragraph.li.comments{
+    color: var(--color-gray-five);
+    font-weight: 400;
+    font-size: 1.125rem;
+    line-height: 1.688rem;
+}
+
+.container.comments.left.right{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: flex-start;
+    align-content: center;
+    flex-wrap: wrap;
+}
