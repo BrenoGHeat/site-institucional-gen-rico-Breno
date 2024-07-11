@@ -22,3 +22,8 @@
     max-width: 12.5rem;
     border: none;
 }
+
+header{
+    position:fixed;
+    width:100%;
+  }
