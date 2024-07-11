@@ -10,7 +10,9 @@
     align-items: flex-start;
     gap: 2.063rem;
     padding-block: 2rem;
-   
+    display: flex;
+    position: sticky;
+    top: 10rem;
 }
 
 .mini.container.right{

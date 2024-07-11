@@ -8,7 +8,8 @@
 .mini.container.right.side{
     width: 36.25rem;
     background-color: var(--color-gray-two);
-   
+    position: sticky;
+    top: 10rem;
 }
 
 .title.comments{
@@ -17,7 +18,6 @@
     color: var(--color-gray-seven);
     line-height: 4rem;
     width: 24.375rem;
-   
 }
 
 .paragraph.comments{
