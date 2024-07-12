@@ -1,8 +1,8 @@
 dialog {
+    border: 2px solid var(--color-brand-one);
+
     padding: 0;
     margin: auto;
-    border: 2px solid var(--color-brand-one);
-    width: 31.5rem;
 }
 ::backdrop{
   background-color: #191C1FCC;
@@ -10,10 +10,11 @@ dialog {
 
 .modal__container{
   background-color: var(--color-gray-two);
+  width: 31.5rem;
+  max-width: 100%;
   box-sizing: border-box;
   padding: 2.5rem;
   gap:1.938rem;
-  width:31.5rem;
   display: flex;
   flex-direction: column;
   color: var(--color-gray-seven);
@@ -91,7 +92,7 @@ dialog {
   background-color: var(--color-brand-two);
 }
 
-.button.close.modal{
+.button-close-modal{
   font-family: var(--font-secondary);
   color:var(--color-gray-four);
   font-weight: 400;
@@ -99,7 +100,7 @@ dialog {
 
 }
 
-.div.button.close{
+.div-button-close{
   background-color: var(--color-gray-three);
   width: 2.375rem;
   height: 2rem;

@@ -1,7 +1,6 @@
 .header.container{
-    width: 100%;
-    max-width: 78.5rem;
-
+    width: 95%;
+   
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -9,7 +8,6 @@
     padding-left: 14.688rem;
     padding-block: 1rem;
     border: none;
-
 }
 
 .header{
@@ -26,4 +24,6 @@
 header{
     position:fixed;
     width:100%;
+    top: 0;
+    left: 0;
   }
