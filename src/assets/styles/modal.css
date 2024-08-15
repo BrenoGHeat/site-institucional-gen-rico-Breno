@@ -3,9 +3,11 @@ dialog {
 
     padding: 0;
     margin: auto;
+    max-width: 90vw;
 }
 ::backdrop{
   background-color: #191C1FCC;
+ 
 }
 
 .modal__container{
